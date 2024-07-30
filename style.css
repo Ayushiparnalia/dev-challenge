@@ -1,0 +1,35 @@
+.salsa-regular {
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Salsa';
+}
+h1, footer{
+    background: -webkit-linear-gradient(green, beige);
+}
+h2{
+    background: -webkit-linear-gradient(red, beige);
+}
+sectionBody{
+    display: flex;
+    gap: 20px;
+}
+section{
+   border: 3px solid;
+   border-radius: 10px;
+   border-color: green;
+   border-style: double;
+}
+section>p{
+    text-align: left;
+    padding: 10px;    
+}
+footer{
+    margin-top: 10px;
+}
+
